@@ -11,7 +11,7 @@ session_start();
 
 $url = 'https://symfony-skeleton.q-tests.com/api/v2/token';
 
-if( $_SERVER["REQUEST_METHOD"] == "POST" ) 
+if( $_SERVER[ 'REQUEST_METHOD' ] == 'POST' ) 
 {
     $fields = [
         'email'      => isset( $_POST[ 'email' ] ) ? $_POST[ 'email' ] : '',
