@@ -1,2 +1,2 @@
 # q-symfony-client
-Client for connection on Q Symfony Skeleton API (QSS)
+Client for connecting to Q Symfony Skeleton API (QSS)
